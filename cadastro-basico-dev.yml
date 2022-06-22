@@ -1,6 +1,6 @@
 spring:
   data:
     mongodb:
-      host: localhost
+      host: ${DB_STUDIO_URL}
       port: 27017
       database: cadastro-basico
